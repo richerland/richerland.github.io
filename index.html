@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R P Medeiros Tecnologia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fbfbfa;
+    --ink:#1b1f24;
+    --muted:#7a828c;
+    --line:#e6e7e9;
+    --accent:#1f3a5f;
+    --alert-bg:#f7f5ef;
+    --alert-line:#e7e1d0;
+    --alert-ink:#5a4a1f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    background:var(--bg);color:var(--ink);
+    line-height:1.6;font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+  .alert{
+    background:var(--alert-bg);
+    border-bottom:1px solid var(--alert-line);
+    color:var(--alert-ink);
+    font-size:13px;line-height:1.55;
+  }
+  .alert .wrap{display:flex;gap:10px;align-items:flex-start;padding-top:10px;padding-bottom:10px}
+  .alert svg{flex:none;margin-top:2px}
+  .alert strong{font-weight:600;letter-spacing:.02em}
+
+  header{background:#fff;border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;height:68px}
+  .brand{display:flex;align-items:center;gap:10px}
+  .brand-mark{
+    width:34px;height:34px;border-radius:8px;background:var(--accent);
+    color:#fff;display:grid;place-items:center;font-weight:600;font-size:13px;letter-spacing:.04em;
+  }
+  .brand-name{font-weight:600;font-size:15px;letter-spacing:-.01em;line-height:1.3}
+  .brand-name span{display:block;font-weight:400;font-size:12px;color:var(--muted);letter-spacing:.02em}
+
+  @media (max-width:600px){ .wrap{padding:0 16px} }
+</style>
+</head>
+<body>
+
+<div class="alert" role="note" aria-label="Alerta importante">
+  <div class="wrap">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+    <p><strong>ALERTA IMPORTANTE:</strong> Identificamos o uso indevido do nome da R P Medeiros Tecnologia LTDA em falsas ofertas de emprego. A empresa não cobra qualquer valor, não solicita códigos, depósitos, carteiras digitais ou cadastros financeiros para participação em processos seletivos. Caso receba uma abordagem desse tipo, não efetue pagamentos, não forneça dados pessoais ou códigos de acesso e desconsidere a mensagem.</p>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-mark">RPM</div>
+      <div class="brand-name">R P Medeiros<span>Tecnologia LTDA</span></div>
+    </div>
+  </div>
+</header>
+
+</body>
+</html>
